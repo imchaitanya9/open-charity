@@ -1,0 +1,25 @@
+name = Seven
+description = A simple one-column, tableless, fluid width administration theme.
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = ./stylesheets/main.css
+scripts[] = ./javascripts/jquery.migrate.js
+scripts[] = ./javascripts/slick.min.js
+scripts[] = ./javascripts/main.js
+settings[shortcut_module_link] = 1
+regions[header] = Header
+regions[banner] = Banner
+regions[upcoming_event] = Upcoming Event
+regions[get_involved] = Get Involved
+regions[our_mission] = Our Mission
+regions[our_members] = Our Members
+regions[blogs] = Blogs
+regions[footer] = Footer
+
+
+; Information added by Drupal.org packaging script on 2017-02-01
+version = "7.54"
+project = "drupal"
+datestamp = "1485986921"
+
